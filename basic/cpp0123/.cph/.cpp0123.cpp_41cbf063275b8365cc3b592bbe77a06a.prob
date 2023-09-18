@@ -1,0 +1,1 @@
+{"name":"Local: cpp0123","url":"y:\\GIT\\PTIT\\codeptit\\cpp\\basic\\cpp0123\\cpp0123.cpp","tests":[{"id":1692268850913,"input":"2","output":"YES"},{"id":1692268855930,"input":"4","output":"NO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"y:\\GIT\\PTIT\\codeptit\\cpp\\basic\\cpp0123\\cpp0123.cpp","group":"local","local":true}

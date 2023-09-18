@@ -1,0 +1,1 @@
+{"name":"Local: cpp0202","url":"y:\\GIT\\PTIT\\codeptit\\cpp\\array\\1d\\cpp0202\\cpp0202.cpp","tests":[{"id":1693015154041,"input":"2\n5\n2 4 5 7 9\n10\n87 32 99 75 56 43 21 10 68 49","output":"1\n6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"y:\\GIT\\PTIT\\codeptit\\cpp\\array\\1d\\cpp0202\\cpp0202.cpp","group":"local","local":true}
