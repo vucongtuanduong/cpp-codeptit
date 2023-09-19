@@ -1,0 +1,9 @@
+2
+2
+X X
+X X
+4
+X X X O
+X O X X
+X X X O
+X O X X

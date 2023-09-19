@@ -1,10 +1,10 @@
-// https://code.ptit.edu.vn/student/question/CPP0218
-// ĐỒNG DƯ VỚI K
-
-#include <bits/stdc++.h>
+#include <iostream>
+#include <cmath>
+#include <algorithm>
+#include <vector>
 using namespace std;
 
-void TestCase()
+void testCase()
 {
     /*
     Giả sử mảng có 2 phần tử a và b
@@ -27,36 +27,43 @@ void TestCase()
     sort(a, a + n);
     int d = a[n - 1] - a[0];
     vector<int> v;
-    for (int i = 1; i <= sqrt(d); ++i) {
+    int res = 0;
+    //get divisors of all numbers in a
+    for (int i = 1; i <= sqrt(d); i++) {
         if (d % i == 0) {
             v.push_back(i);
-            if (i * i != d)
+            if (i * i != d) {
                 v.push_back(d / i);
+            }
         }
     }
-
-    int res = 0;
-    for (int i = 0; i < v.size(); ++i) {
+    //check if any the divisor that modulos k is different from others
+    for (int i = 0; i < v.size(); i++) {
         int temp = a[0] % v[i];
-        int j;
-        for (j = 1; j < n; ++j) {
-            if (a[j] % v[i] != temp)
+        int j = 1;
+        for (j = 1; j < n; j++) {
+            if (a[j] % v[i] != temp) {
                 break;
+            }
         }
-        if (j == n)
+        if (j == n) {
             res++;
+        }
     }
-    cout << res << endl;
+    cout << res;
 }
 
 int main()
 {
-    ios_base::sync_with_stdio(0);
-
-    int T;
-    cin >> T;
-    while (T--) {
-        TestCase();
+	#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+	#endif
+    int t;
+    cin >> t;
+    while (t--) {
+        testCase();
+        cout << endl;
     }
     return 0;
 }
