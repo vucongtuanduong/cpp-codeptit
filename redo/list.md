@@ -11,7 +11,7 @@ a can greater than b
 https://code.ptit.edu.vn/student/question/CPP0136
 ## 1
 https://code.ptit.edu.vn/student/question/CPP0140
-##
+## 1
 https://code.ptit.edu.vn/student/question/CPP0173
 ##
 https://code.ptit.edu.vn/student/question/CPP0212
@@ -61,3 +61,7 @@ https://code.ptit.edu.vn/student/question/CPP0238
 https://code.ptit.edu.vn/student/question/CPP0239
 ##
 https://code.ptit.edu.vn/student/question/CPP0263
+## 
+https://code.ptit.edu.vn/student/question/CPP0319
+##
+https://code.ptit.edu.vn/student/question/CPP0454
