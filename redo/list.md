@@ -1,13 +1,15 @@
 # list
-##
+## 1
 https://code.ptit.edu.vn/student/question/CPP0108
-##
+## 1
 https://code.ptit.edu.vn/student/question/CPP0118
-##
-https://code.ptit.edu.vn/student/question/CPP0125
-##
-https://code.ptit.edu.vn/student/question/CPP0136
 ## 
+https://code.ptit.edu.vn/student/question/CPP0125
+### 
+a can greater than b
+## 1
+https://code.ptit.edu.vn/student/question/CPP0136
+## 1
 https://code.ptit.edu.vn/student/question/CPP0140
 ##
 https://code.ptit.edu.vn/student/question/CPP0173
