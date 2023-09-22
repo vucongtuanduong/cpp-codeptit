@@ -1,5 +1,6 @@
 #include <iostream>
 #include <algorithm>
+#include <climits>
 using namespace std;
 void testCase();
 void testCase2();
