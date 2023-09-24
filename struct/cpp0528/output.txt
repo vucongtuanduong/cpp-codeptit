@@ -1,0 +1,3 @@
+3 B17DCAT092  Cao Danh Huy      D17CQAT04-B test3@stu.ptit.edu.vn FPT
+2 B17DCCN107  Dao Thanh Dat     D17CNPM5    test2@stu.ptit.edu.vn FPT
+5 B17DCCN461  Dinh Quang Nghia  D17CNPM2    test5@stu.ptit.edu.vn FPT

@@ -67,3 +67,9 @@ https://code.ptit.edu.vn/student/question/CPP0319
 https://code.ptit.edu.vn/student/question/CPP0454
 ## 
 https://code.ptit.edu.vn/student/question/CPP0307
+## 
+https://code.ptit.edu.vn/student/question/CPP0452
+## 
+https://code.ptit.edu.vn/student/question/CPP0322
+##
+https://code.ptit.edu.vn/student/question/CPP0323
