@@ -13,12 +13,10 @@ https://code.ptit.edu.vn/student/question/CPP0136
 https://code.ptit.edu.vn/student/question/CPP0140
 ## 1
 https://code.ptit.edu.vn/student/question/CPP0173
-##
+## 1
 https://code.ptit.edu.vn/student/question/CPP0212
-##
+## 1
 https://code.ptit.edu.vn/student/question/CPP0216
-##
-https://code.ptit.edu.vn/student/question/CPP0220
 ##
 https://code.ptit.edu.vn/student/question/CPP0221
 ##
