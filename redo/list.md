@@ -19,9 +19,9 @@ https://code.ptit.edu.vn/student/question/CPP0212
 https://code.ptit.edu.vn/student/question/CPP0216
 ##
 https://code.ptit.edu.vn/student/question/CPP0221
-##
+## 1
 https://code.ptit.edu.vn/student/question/CPP0223
-##
+## 1
 https://code.ptit.edu.vn/student/question/CPP0225
 ##
 https://code.ptit.edu.vn/student/question/CPP0232
