@@ -25,17 +25,17 @@ https://code.ptit.edu.vn/student/question/CPP0223
 https://code.ptit.edu.vn/student/question/CPP0225
 ##
 https://code.ptit.edu.vn/student/question/CPP0232
-##
+## 1
 https://code.ptit.edu.vn/student/question/CPP0241
-##
+## 1
 https://code.ptit.edu.vn/student/question/CPP0242
-##
+## 1
 https://code.ptit.edu.vn/student/question/CPP0338
 ##
 https://code.ptit.edu.vn/student/question/CPP0224
 ##
 https://code.ptit.edu.vn/student/question/CPP0270
-##
+## 1
 https://code.ptit.edu.vn/student/question/CPP0211
 ##
 https://code.ptit.edu.vn/student/question/CPP0156
