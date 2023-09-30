@@ -18,16 +18,14 @@ int main () {
     }
 }
 void testCase() {
-    string a, b;
+    string a, b = "";
     cin >> a;
     map<char,int> m;
     for (int i = 0; i < a.size(); i++) {
         m[a[i]]++;
     }
-    for (int i = 0; i < 256; i++) {
-        if (m[i] > 0) {
-            b.push_back((char)i);
-        }
+    for (auto x : m) {
+        b += x.first;
     }
     cout << implement(a,b);
 }
