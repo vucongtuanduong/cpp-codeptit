@@ -95,3 +95,5 @@ https://code.ptit.edu.vn/student/question/CPP0337
 https://code.ptit.edu.vn/student/question/CPP0723
 ## 
 https://code.ptit.edu.vn/student/question/CPP0721
+## 
+https://code.ptit.edu.vn/student/question/CPP0531
