@@ -37,3 +37,7 @@ int main () {
         cout << endl;
     }
 }
+/*
+Công thức diện tích đa giác lồi:
+Area(A) = 1/2 * |(x1.y2 - x2.y1) + (x2.y3 - x3.y2) + ... + (xn.y1 - x1.yn)|
+*/
