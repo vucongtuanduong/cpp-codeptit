@@ -1,0 +1,13 @@
+Danh sach sinh vien co diem c++ >= 7.0: 
+B22DCKH001 Vu Cong Tuan Duong D22CQKH01-B 9 8
+B22DCKH002 Nguyen Van C D22CQKH01-B 7 8.5
+
+Danh sach sinh vien sap xep theo thu tu tu dien: 
+B22DCKH002 Nguyen Van C D22CQKH01-B 7 8.5
+B22DCKH003 Nguyen Van D D22CQKH01-B 10 6.25
+B22DCKH001 Vu Cong Tuan Duong D22CQKH01-B 9 8
+
+Danh sach sinh vien sap xep theo diem trung binh
+B22DCKH001 Vu Cong Tuan Duong D22CQKH01-B 9 8
+B22DCKH003 Nguyen Van D D22CQKH01-B 10 6.25
+B22DCKH002 Nguyen Van C D22CQKH01-B 7 8.5
