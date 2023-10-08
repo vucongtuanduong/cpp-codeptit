@@ -4,11 +4,11 @@
 
 ## Getting started
 
-This repository contains almost everything I practice and take exam in my c++ course at PTIT.\
+This repository contains almost everything I practice and take exam in my c++ course at PTIT
 
-Sorry because I can't post the problems here because I want only PTIT students can take advantages of my accepted code and I also don't want to violate code of conduct(obviously).\
+Sorry because I can't post the problems here because I want only PTIT students can take advantages of my accepted code and I also don't want to violate code of conduct(obviously)
 
-But if you are not PTIT students, this repository may helpful to you though. You can predict and guess the problems by comprehend my code! \
+But if you are not PTIT students, this repository may helpful to you though. You can predict and guess the problems by comprehend my code!
 
 Hope all of you can be helped by this repository!
 
