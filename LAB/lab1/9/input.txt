@@ -1,17 +1,21 @@
-8
-
+20
 Minh ve minh co nho ta
-
 Muoi lam nam ay thiet tha man nong
-
 Minh ve minh co nho khong
-
 Nhin cay nho nui nhin song nho nguon
-
 Mot canh hai canh lai ba canh
-
 Tran troc ban khoan giac chang lanh
-
 Canh bon canh nam vua chop mat
-
+Sao vang nam canh mong hon bay
+Minh ve minh co nho ta
+Muoi lam nam ay thiet tha man nong
+Minh ve minh co nho khong
+Nhin cay nho nui nhin song nho nguon
+Mot canh hai canh lai ba canh
+Tran troc ban khoan giac chang lanh
+Canh bon canh nam vua chop mat
+Sao vang nam canh mong hon bay
+Mot canh hai canh lai ba canh
+Tran troc ban khoan giac chang lanh
+Canh bon canh nam vua chop mat
 Sao vang nam canh mong hon bay
