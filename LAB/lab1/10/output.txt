@@ -1,0 +1,3 @@
+Home/accommodation: 3
+
+Study: 3
