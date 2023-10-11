@@ -31,53 +31,39 @@ https://code.ptit.edu.vn/student/question/CPP0241
 https://code.ptit.edu.vn/student/question/CPP0242
 ## 1
 https://code.ptit.edu.vn/student/question/CPP0338
-##
-https://code.ptit.edu.vn/student/question/CPP0224
-##
-https://code.ptit.edu.vn/student/question/CPP0270
 ## 1
 https://code.ptit.edu.vn/student/question/CPP0211
-##
+## 1
 https://code.ptit.edu.vn/student/question/CPP0156
-##
+## 1
 https://code.ptit.edu.vn/student/question/CPP0218
-##
-https://code.ptit.edu.vn/student/question/CPP0218
-##
-https://code.ptit.edu.vn/student/question/CPP0218
-##
-https://code.ptit.edu.vn/student/question/CPP0237
-##
-https://code.ptit.edu.vn/student/question/CPP0262
-##
-https://code.ptit.edu.vn/student/question/CPP0271
-##
-https://code.ptit.edu.vn/student/question/CPP0272
-## 
+## 1
 https://code.ptit.edu.vn/student/question/CPP0319
-##
+## 1
 https://code.ptit.edu.vn/student/question/CPP0454
-## 
+## *1
 https://code.ptit.edu.vn/student/question/CPP0307
-## 
+## 1
 https://code.ptit.edu.vn/student/question/CPP0452
-## 
+## *1
 https://code.ptit.edu.vn/student/question/CPP0322
-##
+## 1
 https://code.ptit.edu.vn/student/question/CPP0323
-##
+## *1
+https://code.ptit.edu.vn/student/question/CPP0321
+## 1
 https://code.ptit.edu.vn/student/question/CPP0324
-##
+## 1
 https://code.ptit.edu.vn/student/question/CPP0315
-##
+## 1
 https://code.ptit.edu.vn/student/question/CPP0423
-## 
+## 1
 https://code.ptit.edu.vn/student/question/CPP0431
-## 
+## *1
 https://code.ptit.edu.vn/student/question/CPP0432
-## 
+## 1
 https://code.ptit.edu.vn/student/question/CPP0451
-## 
+## 1
 https://code.ptit.edu.vn/student/question/CPP0326
 ## 
 https://code.ptit.edu.vn/student/question/CPP0328
@@ -122,6 +108,18 @@ https://code.ptit.edu.vn/student/question/CPP0722
 ## 
 https://code.ptit.edu.vn/student/question/CPP0720
 # ---------------------------------------------------
+##
+https://code.ptit.edu.vn/student/question/CPP0237
+##
+https://code.ptit.edu.vn/student/question/CPP0262
+##
+https://code.ptit.edu.vn/student/question/CPP0271
+##
+https://code.ptit.edu.vn/student/question/CPP0272
+##
+https://code.ptit.edu.vn/student/question/CPP0224
+##
+https://code.ptit.edu.vn/student/question/CPP0270
 ##
 https://code.ptit.edu.vn/student/question/CPP0263
 ##
