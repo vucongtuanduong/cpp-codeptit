@@ -1,0 +1,33 @@
+Theo quy định đào tạo các học phần tiếng anh của Học viện Công nghệ Bưu chính Viễn thông, sinh viên được phép sử dụng các chứng chỉ Tiếng Anh quốc tế còn thời hạn để chuyển đổi điểm cho các học phần tiếng anh đã học.
+
+Chi tiết cách chuyển đổi áp dụng theo bảng phụ lục dưới đây.
+
+
+
+Hãy xác định điểm cho từng học phần Tiếng Anh từ điểm thi TOEIC cho trước.
+
+Input:
+
+Dòng đầu tiên đưa vào số bài thi TOEIC cần xét chuyển đổi điểm T.
+
+T dòng tiếp theo đưa vào mỗi dòng một số nguyên điểm thi của một bài thi TOEIC (n).
+
+T, n thỏa mãn ràng buộc 0 < T <= 1000, 0<=n<=990
+
+Output:
+
+Đưa ra điểm chuyển đổi cho học phần Tiếng Anh Course 3. Các trường hợp không áp dụng hoặc không đủ điều kiện chuyển đổi điểm in ra -1.
+
+Input
+
+Output
+
+2
+
+595
+
+100
+
+8
+
+-1
