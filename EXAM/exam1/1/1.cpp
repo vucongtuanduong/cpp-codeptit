@@ -1,15 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 void testCase();
-int isPalindrome(long long n) {
-    long long res = 0;
-    long long x = n;
-    while (x > 0) {
-        res = res * 10 + (n % 10);
-        x /= 10;
-    }
-    return (res == n);
-}
 int main () {
     #ifndef ONLINE_JUDGE
     freopen("input.txt", "r", stdin);
@@ -24,43 +15,78 @@ int main () {
     }
 }
 void testCase() {
-    int n;
-    cin >> n;
     string mien;
     cin >> mien;
     int nam;
     int ngay;
+    int thang;
     cin >> nam >> ngay;
-    int thang[12];
-    if (nam % 100 == 0 || nam % 4 == 0) {
-        for (int i = 0; i < 12; i++) {
-            thang[0] = nam - 31;
-            nam -= 31;
-            thang[1] = nam - 29;
-            thang[2] = nam - 31;
-            thang[3] = nam - 30;
-            thang[4] = nam - 31;
-            thang[5] = nam - 30;
-            thang[6] = nam - 31;
-            thang[7] = nam - 31;
-            thang[8] = nam - 30;
-            thang[9] = nam - 31;
-            thang[10] = nam - 30;
-            thang[11] = nam - 31;
-            nam -= 29;
-            nam -= 31;
-             nam -= 30;
-             nam -= 31;
-             nam -= 30;
-             nam -= 31;
-             nam -= 31;
-             nam -= 30;
-             nam -= 31;
-            nam -= 30;
-             nam -= 31;
-
+    int tempNgay = ngay;
+    int thangKoNhuan[12] = {31, 29, 31, 30 , 31,30, 31, 31 ,30, 31, 30, 31 };
+    int thangNhuan[12] = {31, 29, 31, 30 , 31,30, 31, 31 ,30, 31, 30, 31 };
+    int check[12] = {0};
+    if (nam % 4 == 0) {
+        int i = 0;
+        while (tempNgay > 0) {
+            tempNgay -= thangNhuan[i];
+            
+            check[i] = 1;
+            i++;
         }
+        int j = 0;
+        int ok = 0;
+        for (j; j < 12; j++) {
+            if (check[j] == 0) {
+                thang = j;
+                ok = 1;
+                break;
+            }
+        }
+        if (ok == 0) {
+            thang = j;
+        }
+        cout << "thang: " << thang << endl;
+    } else {
+        int i = 0;
+        while (tempNgay > 0) {
+            tempNgay -= thangKoNhuan[i];
+            
+            check[i] = 1;
+            i++;
+        }
+        int j = 0;
+        int ok = 0;
+        for (j; j < 12; j++) {
+            if (check[j] == 0) {
+                thang = j;
+                ok = 1;
+                break;
+            }
+        }
+        if (ok == 0) {
+            thang = j;
+        }
+        cout << "thang: " << thang << endl;
     }
-
+    string muaBac, muaNam;
+    if (mien == "Bac") {
+        if (thang >= 2 && thang <= 4) {
+            muaBac = "Xuan";
+        } else if (thang >= 5 && thang <= 7) {
+            muaBac = "He";
+        } else if (thang >= 8 && thang <= 10) {
+            muaBac = "Thu";
+        } else {
+            muaBac = "Dong";
+        }
+        cout << muaBac;
+    } else if (mien == "Nam") {
+        if (thang >= 11 || thang <= 4) {
+            muaNam = "Kho";
+        } else {
+            muaNam = "Mua";
+        }
+        cout << muaNam;
+    }
 
 }

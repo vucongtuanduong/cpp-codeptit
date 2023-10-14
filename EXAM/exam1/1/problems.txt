@@ -32,7 +32,7 @@ In ra mùa tương ứng (Xuan / He / Thu / Dong / Mua / Kho)
 
 Input
 
-Output
+
 
 2
 
@@ -43,7 +43,7 @@ Bac
 Nam
 
 2022 35
-
+Output
 Xuan
 
 Kho
