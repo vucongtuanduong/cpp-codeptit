@@ -23,7 +23,7 @@ void testCase() {
     cin >> nam >> ngay;
     int tempNgay = ngay;
     int thangKoNhuan[12] = {31, 29, 31, 30 , 31,30, 31, 31 ,30, 31, 30, 31 };
-    int thangNhuan[12] = {31, 29, 31, 30 , 31,30, 31, 31 ,30, 31, 30, 31 };
+    int thangNhuan[12] = {31, 28, 31, 30 , 31,30, 31, 31 ,30, 31, 30, 31 };
     int check[12] = {0};
     if (nam % 4 == 0) {
         int i = 0;
