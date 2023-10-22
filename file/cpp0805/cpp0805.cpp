@@ -26,7 +26,6 @@ void testCase() {
     map<string,int> m1, m2;
     while (!file.eof()) {
         string s;
-        
         file >> s;
         s = tolower(s);
         m1[s]++;
