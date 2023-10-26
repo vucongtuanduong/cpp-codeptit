@@ -1,0 +1,7 @@
+Before we read: 
+  0 0
+B22DCKH024 Vu Cong Tuan Duong 2022 3.05
+B20DCCN001 Nguyen Van A 2000 3.5
+B20DCCN002 Nguyen Van B 2000 3.5
+Destructor of Nguyen Van A is called
+Destructor of Vu Cong Tuan Duong is called

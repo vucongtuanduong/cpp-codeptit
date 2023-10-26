@@ -2,7 +2,7 @@
 using namespace std;
 class NhanVien{
     private:
-        string id = "00001";
+        string id;
         string name;
         string dob;
         string gender;
@@ -10,56 +10,35 @@ class NhanVien{
         string tax;
         string day;
     public:
-        void setName(string s) {
-            name = s;
+        NhanVien() {
+            id = "00001";
+            name = "";
+            dob = "";
+            gender = "";
+            address = "";
+            tax = "";
+            day = "";
         }
-        void setDob(string s) {
-            dob = s;
+        void nhap() {
+            getline(cin, name);
+            getline(cin, gender);
+            getline(cin, dob);
+            getline(cin, address);
+            getline(cin, tax);
+            getline(cin, day);
         }
-        void setGender(string s) {
-            gender = s;
+
+        void xuat() {
+            cout << id << " " << name << " " << gender << " " << dob << " " << address << " " << tax << " " << day;
         }
-        void setAddress(string s) {
-            address = s;
-        }
-        void setTax(string s) {
-            tax = s;
-        }
-        void setDay(string s) {
-            day = s;
-        }
-    friend istream & operator >> (istream &in, NhanVien &);
-    friend ostream & operator << (ostream &out, NhanVien );
+    
 };
-istream & operator >> (istream &in, NhanVien &n) {
-    string ten,gioitinh, ngaysinh, diachi, mst, ngay;
-    getline(in, ten);
-    cin >> gioitinh;
-    cin >> ngaysinh;
-    cin.ignore();
-    getline(in, diachi);
-    cin >> mst;
-    cin.ignore();
-    cin >> ngay;
-    n.setAddress(diachi);
-    n.setDay(ngay);
-    n.setDob(ngaysinh);
-    n.setGender(gioitinh);
-    n.setName(ten);
-    n.setTax(mst);
-    return in;
-}
-ostream & operator << (ostream &out, NhanVien n) {
-    out << n.id << " " << n.name << " " << n.gender << " " << n.dob << " " << n.address << " " << n.tax << " " << n.day;
-    return out;
-}
-int main () {
-    #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-    #endif
+
+int main(){
     NhanVien a;
-    cin >> a;
-    cout << a;
+    //cin >> a;
+    a.nhap();
+    //cin >> a;
+    a.xuat();
     return 0;
 }
