@@ -19,11 +19,11 @@ void testCase() {
     string s,input = "";
     while (getline(cin, s)) {
     	input += s;
-    	input += " ";
+    	// input += ".";
 	}
     getline(cin, input);
 //    cout << input << endl;
-    changeDelimiter(input);
+    // changeDelimiter(input);
     stringstream ss(input);
     vector<vector<string>> res;
     
@@ -48,8 +48,31 @@ void testCase() {
         for(auto x : res[i]) {
             cout << x << " ";
         }
+        // cout << ".";
         cout << endl;
     }
+//     while (getline(ss, temp, '.')) {
+//         standard(temp);
+//         stringstream sspace (temp);
+//         string tmp;
+//         vector<string> v;
+//         while (sspace >> tmp) {
+            
+// 			v.push_back(tmp);
+// 			standard(v[0]);
+//             current++;
+//         }
+// //        standard(v[0]);
+//         res.push_back(v);
+// //        standard(res[0]);
+//     }
+//     for(int i = 0; i < res.size(); i++) {
+//         for(auto x : res[i]) {
+//             cout << x << " ";
+//         }
+//         cout << ".";
+//         cout << endl;
+//     }
 }
 void standard(string &s) {
     toupper(s[0]);
