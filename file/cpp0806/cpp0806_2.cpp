@@ -58,6 +58,9 @@ int main  (){
     fileMh.open("MH.in");
     fileHd.open("HD.in");
     int N,M,K,i;
+    fileKh >> N;
+    fileMh >> M;
+    fileHd >> K;
     vector<string> khString;
     vector<string> mhString;
     vector<string> hdString;
@@ -71,12 +74,22 @@ int main  (){
     while (getline(fileHd, temp)) {
         hdString.push_back(temp);
     }
+    // for (auto x: khString) {
+    //     cout << x << endl;
+    // }
+    // for (auto x: mhString) {
+    //     cout << x << endl;
+    // }
+    // for (auto x: hdString) {
+    //     cout << x << endl;
+    // }
     fileKh.close();
     fileMh.close();
     fileHd.close();
-    N = stoi(khString[0]);
-    M = stoi(mhString[0]);
-    K = stoi(hdString[0]);
+    // N = stoi(khString[0]);
+    // M = stoi(mhString[0]);
+    // K = stoi(hdString[0]);
+    // cout << N << " " << M << " " << K << endl;
     int currentKh = 1;
     int currentMh = 1;
     int currentHd = 1;
@@ -87,15 +100,32 @@ int main  (){
         }
         dskh[i].khId += temp;
         demKh++;
+        if (khString[currentKh] == " ") {
+            currentKh++;
+        }
         dskh[i].khName = khString[currentKh];
         currentKh++;
+        if (khString[currentKh] == " ") {
+            currentKh++;
+        }
         dskh[i].gender = khString[currentKh];
         currentKh++;
+        if (khString[currentKh] == " ") {
+            currentKh++;
+        }
         dskh[i].dob = khString[currentKh];
         currentKh++;
+        if (khString[currentKh] == " ") {
+            currentKh++;
+        }
         dskh[i].address = khString[currentKh];
         currentKh++;
         khMap[dskh[i].khId] = dskh[i];
+        // cout << dskh[i].khId << endl;
+        // cout << dskh[i].khName << endl;
+        // cout << dskh[i].gender << endl;
+        // cout << dskh[i].dob << endl;
+        // cout << dskh[i].address << endl;
 
     }
 
@@ -107,20 +137,32 @@ int main  (){
         }
         dsmh[i].mhId += temp;
         demMh++;
-        
+        if (mhString[currentMh] == " ") {
+            currentMh++;
+        }
         dsmh[i].mhName = mhString[currentMh];
         currentMh++;
-        
+        if (mhString[currentMh] == " ") {
+            currentMh++;
+        }
         dsmh[i].donvi = mhString[currentMh];
         currentMh++;
-        
+        if (mhString[currentMh] == " ") {
+            currentMh++;
+        }
         dsmh[i].buyPrice = stoi(mhString[currentMh]);
         currentMh++;
-        
+        if (mhString[currentMh] == " ") {
+            currentMh++;
+        }
         dsmh[i].sellPrice = stoi(mhString[currentMh]);
         currentMh++;
-        
         mhMap[dsmh[i].mhId] = dsmh[i];
+        // cout << dsmh[i].mhId << endl;
+        // cout << dsmh[i].mhName << endl;
+        // cout << dsmh[i].donvi << endl;
+        // cout << dsmh[i].buyPrice << endl;
+        // cout << dsmh[i].sellPrice << endl;
     }
     
     for(i=0;i<K;i++) {
@@ -130,6 +172,9 @@ int main  (){
         }
         dshd[i].hdId += temp;
         demHd++;
+        if (hdString[currentHd] == " ") {
+            currentHd++;
+        }
         string tempHd = hdString[currentHd];
         currentHd++;
         stringstream ss(tempHd);
@@ -144,6 +189,12 @@ int main  (){
 
         dshd[i].thanhtien = mhMap[dshd[i].mhId].sellPrice * dshd[i].quantity;
         dshd[i].profit = dshd[i].thanhtien - mhMap[dshd[i].mhId].buyPrice * dshd[i].quantity;
+        // cout << dshd[i].hdId << endl;
+        // cout << dshd[i].khId << endl;
+        // cout << dshd[i].mhId << endl;
+        // cout << dshd[i].quantity << endl;
+        // cout << dshd[i].thanhtien << endl;
+        // cout << dshd[i].profit << endl;
 
     }
 

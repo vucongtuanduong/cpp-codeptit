@@ -33,11 +33,11 @@ class SinhVien{
         string className;
         string email;
         friend istream &operator >> (istream &in, SinhVien &sv) {
-            if (dem == 1) {
-                in.ignore();
+            // if (dem == 1) {
+            //     scanf("\n");
 
-            }
-            dem++;
+            // }
+            // dem++;
             getline(in, sv.id);
             getline(in, sv.name);
             getline(in, sv.className);
@@ -46,7 +46,7 @@ class SinhVien{
             return in;
         }
         friend ostream &operator << (ostream &out, SinhVien a) {
-            out << a.id << " " << a.name << " " << a.className << " " << a.email << " ";
+            out << a.id << " " << a.name << " " << a.className << " " << a.email;
             return out; 
         }
 };
@@ -61,7 +61,7 @@ int main () {
     file.open("SINHVIEN.in");
     int n;
     file >> n;
-    // file.ignore();
+    file.ignore();
     SinhVien *a = new SinhVien[1000];
     for (int i = 0; i < n; i++) {
         file >> a[i];
