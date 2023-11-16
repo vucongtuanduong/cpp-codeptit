@@ -106,8 +106,8 @@ int main  (){
     #ifndef ONLINE_JUDGE
     freopen("output.txt", "w", stdout);
     #endif
-    KhachHang dskh[25];
-    MatHang dsmh[45];
+    KhachHang dskh[100];
+    MatHang dsmh[100];
     HoaDon dshd[105];
 
     fstream fileKh, fileMh, fileHd;
