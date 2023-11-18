@@ -1,0 +1,16 @@
+15
+Home/accommodation
+What kind of housing/accommodation do you live in?
+Who do you live with?
+How long have you lived there?
+
+Study
+Describe your education
+What is your area of specialization?
+Why did you choose to study that major?
+
+Hobby
+What do you do in your free time?
+Do you play any sports?
+Do you play any musical instruments?
+Do you like football?

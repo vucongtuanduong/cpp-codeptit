@@ -8,6 +8,7 @@
         "*.tcc": "cpp",
         "random": "cpp",
         "sstream": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "unordered_set": "cpp"
     }
 }

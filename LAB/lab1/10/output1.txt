@@ -1,0 +1,3 @@
+Hobby: 4
+Home/accommodation: 3
+Study: 3
