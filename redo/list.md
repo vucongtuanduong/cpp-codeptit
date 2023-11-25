@@ -1,7 +1,7 @@
 # list
-## 1
+## 2
 https://code.ptit.edu.vn/student/question/CPP0108
-## 1
+## 2
 https://code.ptit.edu.vn/student/question/CPP0118
 ## 
 https://code.ptit.edu.vn/student/question/CPP0125
