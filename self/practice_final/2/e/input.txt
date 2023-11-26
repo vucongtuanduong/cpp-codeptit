@@ -1,0 +1,33 @@
+8
+May giat
+Philips
+Cai
+831000 1196000
+Noi com dien
+Sanyo
+Cai
+765000 1135000
+May say toc
+Sunhouse
+Cai
+499000 676000
+Noi com dien
+SHARP
+Cai
+759000 937000
+May lanh
+SATO
+Cai
+10000 105000
+May giat
+SATO
+Cai
+259000 413000
+Ti vi
+SHARP
+Cai
+510000 561000
+May lanh
+Sunhouse
+Cai
+163000 532000
