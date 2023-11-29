@@ -6,14 +6,20 @@ void testCase() {
     int n;
     cin >> n;
     int *a = new int[n];
-    map<int,int> m;
+    int *b = new int[n];
     for (int i = 0; i < n; i++) {
         cin >> a[i];
-        m[a[i]]++;
+        b[i] = a[i];
     }
+    sort(a, a + n);
     for (int i = 0; i < n; i++) {
-        for (int j = a[i] - 1; j >= 0; j--) {
-
+        auto it = lower_bound(a, a + n, b[i]);
+        //tim ra vi tri dau tien cua phan tu >= b[i]
+        if (it == a) {
+            cout << "# ";
+        } else {
+            --it;
+            cout << *it << " ";
         }
     }
 

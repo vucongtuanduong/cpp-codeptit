@@ -1,10 +1,36 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-void testCase();
-
+int a[1005][1005];
+long long f1[1005][1005], f2[1005][1005];
+void testCase();//TLE
+void testCase2();//AC
 //explicit
-
+void testCase2() {
+    int n, m;
+    cin >> n >> m;
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m; j++) {
+            cin >> a[i][j];
+            f1[i][j] = f1[i][j - 1] + a[i][j];
+            f2[i][j] = f2[i - 1][j] + a[i][j];
+        }
+    }
+    int q;
+    cin >> q;
+    while (q--) {
+        int choice;
+        cin >> choice;
+        if (choice == 1) {
+            int x, y, z;
+            cin >> x >> y >> z;
+            cout << f1[x][z] - f1[x][y - 1] << endl;
+        } else if (choice == 2) {
+            int u,v,t;
+            cin >> u >> v >> t;
+            cout << f2[t][u] - f2[v - 1][u] << endl;
+        }
+    }
+}
 void testCase() {
     int rows,columns;
     cin >> rows >> columns;
@@ -52,5 +78,5 @@ int main () {
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
     #endif
-    testCase();
+    testCase2();
 }
