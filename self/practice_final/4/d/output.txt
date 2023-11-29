@@ -1,0 +1,7 @@
+USA 3 4
+Senegal 3 2
+South Korea 2 0
+France 1 0
+Poland 1 0
+Netherlands 1 -2
+Spain 1 -4

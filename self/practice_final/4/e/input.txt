@@ -1,0 +1,41 @@
+8
+NV-0001
+Vu Phuong Minh
+16/10/1979
+24
+167000
+NV-0002
+Nguyen Hong Hai
+23/11/1975
+22
+236000
+GD-0003
+Nguyen Hong Hai
+14/6/1972
+22
+1000000
+NV-0004
+Vu Ngoc Tuan
+9/11/1974
+30
+150000
+NV-0005
+Vu Van Hai
+19/7/1972
+23
+216000
+TP-0006
+Nguyen Ngoc Hai
+15/5/1975
+28
+750000
+NV-0007
+Vu Van Nam
+1/10/1975
+28
+176000
+NV-0008
+Nguyen Phuong Minh
+22/5/1975
+29
+205000
