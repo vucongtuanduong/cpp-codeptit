@@ -39,13 +39,13 @@ https://code.ptit.edu.vn/student/question/CPP0156
 https://code.ptit.edu.vn/student/question/CPP0218
 ## 1-
 https://code.ptit.edu.vn/student/question/CPP0319
-## 1
+## 1-
 https://code.ptit.edu.vn/student/question/CPP0454
 ## *1-
 https://code.ptit.edu.vn/student/question/CPP0307
-## 1
+## 1-
 https://code.ptit.edu.vn/student/question/CPP0452
-## *1
+## *1-
 https://code.ptit.edu.vn/student/question/CPP0322
 ## 1
 https://code.ptit.edu.vn/student/question/CPP0323
