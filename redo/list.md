@@ -1,47 +1,47 @@
 # list
-## 2
+## 2-
 https://code.ptit.edu.vn/student/question/CPP0108
-## 2
+## 2-
 https://code.ptit.edu.vn/student/question/CPP0118
 ## 
 https://code.ptit.edu.vn/student/question/CPP0125
 ### 
 a can greater than b
-## 1
+## 1-
 https://code.ptit.edu.vn/student/question/CPP0136
-## 1
+## 1-
 https://code.ptit.edu.vn/student/question/CPP0140
 ## 1
 https://code.ptit.edu.vn/student/question/CPP0173
-## 1
+## 1-
 https://code.ptit.edu.vn/student/question/CPP0212
-## 1
+## 1-
 https://code.ptit.edu.vn/student/question/CPP0216
-##
+## *
 https://code.ptit.edu.vn/student/question/CPP0221
-## 1
+## 1-
 https://code.ptit.edu.vn/student/question/CPP0223
-## 1
+## 1*
 https://code.ptit.edu.vn/student/question/CPP0225
 ##
 https://code.ptit.edu.vn/student/question/CPP0232
 ## 1
 https://code.ptit.edu.vn/student/question/CPP0241
-## 1
+## 1-
 https://code.ptit.edu.vn/student/question/CPP0242
-## 1
+## 1-
 https://code.ptit.edu.vn/student/question/CPP0338
-## 1
+## 1-
 https://code.ptit.edu.vn/student/question/CPP0211
 ## 1
 https://code.ptit.edu.vn/student/question/CPP0156
 ## 1
 https://code.ptit.edu.vn/student/question/CPP0218
-## 1
+## 1-
 https://code.ptit.edu.vn/student/question/CPP0319
 ## 1
 https://code.ptit.edu.vn/student/question/CPP0454
-## *1
+## *1-
 https://code.ptit.edu.vn/student/question/CPP0307
 ## 1
 https://code.ptit.edu.vn/student/question/CPP0452
