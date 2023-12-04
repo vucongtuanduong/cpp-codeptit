@@ -1,3 +1,5 @@
 1: https://code.ptit.edu.vn/student/question/CPP0737
 2:https://code.ptit.edu.vn/student/question/CPP0727
 3:https://code.ptit.edu.vn/student/question/CPP0730
+4-AC:https://code.ptit.edu.vn/student/question/CPP0129
+5 - AC:https://code.ptit.edu.vn/student/question/CPP0355
