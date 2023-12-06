@@ -1,0 +1,5 @@
+1-AC: https://code.ptit.edu.vn/student/question/CPP0141
+2-AC: https://code.ptit.edu.vn/student/question/CPP0210
+3 : https://code.ptit.edu.vn/student/question/CPP0228
+4-AC: https://code.ptit.edu.vn/student/question/CPP0243
+5: https://code.ptit.edu.vn/student/question/CPP0315
