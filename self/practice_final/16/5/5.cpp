@@ -26,7 +26,7 @@ class Book{
     public:
         string name;
         vector<Author> author;
-        double price;
+        int price;
         int qty = 0;
         friend istream &operator >> (istream &in, Book &a) {
             string rac;
@@ -59,14 +59,14 @@ class Book{
             return out;
         } 
 };
-bool cmp(Book &a, Book  &b) {
+bool cmp(Book a, Book  b) {
     return a.name < b.name;
 }
 void testCase() {
     int n;
     cin >> n;
     cin.ignore();
-    vector<Book> dssach(n);
+    Book *dssach = new Book[n];
     for (int i = 0; i < n; i++) {
         cin >> dssach[i];
     }
