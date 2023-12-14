@@ -1,0 +1,31 @@
+2 7
+Hai huoc
+Tinh cam
+TL001
+25/11/2021
+Phim so 1
+10
+TL001
+04/12/2021
+Phim so 2
+15
+TL002
+25/11/2021
+Phim so 3
+5
+TL002
+24/11/2021
+Phim so 4
+6
+TL002
+25/12/2020
+Phim so 5
+7
+TL001
+25/12/2020
+Phim so 6
+7
+TL002
+25/12/2020
+Phim so 7
+8
