@@ -1,9 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
+bool cmp(string a, string b) {
+    if (a.size() == b.size()) {
+        return a < b;
+    } 
+    return a.size() < b.size();
+}
 void testCase() {
     string s;
     getline(cin, s);
-    vector<long long> res;
+    vector<string> res;
     string tempSo = "";
     int i = 0;
     while (i < s.size()) {
@@ -14,13 +20,21 @@ void testCase() {
         }
         // cout << tempSo << endl;
         if (tempSo != "") {
-            long long temp = stoll(tempSo);
-            res.push_back(temp);
+            int j = 0;
+            while (tempSo[j] == '0') {
+                tempSo.erase(0, 1);
+            }
+            if (tempSo == "") {
+                res.push_back("0");
+            } else {
+                res.push_back(tempSo);
+            }
+            
         }
         
         i++;
     }
-    sort(res.begin(), res.end());
+    sort(res.begin(), res.end(), cmp);
     cout << res[res.size() - 1] << endl;
 
 }

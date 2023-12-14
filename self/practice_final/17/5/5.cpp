@@ -2,12 +2,74 @@
 using namespace std;
 class Customer;
 class Invoice;
+map<Customer
+class Customer{
+    public:
+        int id;
+        string name = "";
+        double discount;
+        friend istream &operator >> (istream &in, Customer &a);
+        friend ostream &operator << (ostream &out, Customer a);
+       
+};
 class Invoice{
     public:
         int id;
         Customer customer;
         double amount;
-        friend istream &operator >> (istream &in, Invoice &a) {
+        friend istream &operator >> (istream &in, Invoice &a);
+};
+
+istream &operator >> (istream &in, Customer &a) {
+    string rac;
+    getline(in, rac);
+    string idString;
+    getline(in, idString);
+    stringstream ss(idString);
+    string temp, idTemp;
+    while (ss >> temp) {
+        idTemp= temp;
+    }
+    a.id = stoi(idTemp);
+
+    string nameString;
+    getline(in, nameString);
+    stringstream ss1(nameString);
+    string temp1;
+    bool ok = false;
+    while (ss1 >> temp1) {
+        if (temp1 == ":") {
+            ok = true;
+        }
+        if (ok == true) {
+            a.name += temp1 + " ";
+        }
+    }
+    a.name.pop_back();
+    
+    string disString, disTemp;
+    getline(in, disString);
+    string temp2;
+    stringstream ss2(disString);
+    while (ss2 >> temp2) {
+        disTemp = temp2;
+    }
+    a.discount = stoi(disTemp);
+
+    Invoice x;
+    in >> x;
+    a.customer = x;
+    return in;
+}
+ostream &operator << (ostream &out, Customer a) {
+
+    out << "Customer ID : " << a.id << endl;
+    out << "Full Name : " << a.name << endl;
+    out << a.customer;    
+    out << "--------------------\n";        
+    return out;
+}
+istream &operator >> (istream &in, Invoice &a) {
             string idString;
             getline(in, idString);
             stringstream ss(idString);
@@ -41,63 +103,6 @@ class Invoice{
 
             return in;
         }
-};
-class Customer{
-    public:
-        int id;
-        string name = "";
-        int discount;
-        friend istream &operator >> (istream &in, Customer &a) {
-            string rac;
-            getline(in, rac);
-            string idString;
-            getline(in, idString);
-            stringstream ss(idString);
-            string temp, idTemp;
-            while (ss >> temp) {
-                idTemp= temp;
-            }
-            a.id = stoi(idTemp);
-
-            string nameString;
-            getline(in, nameString);
-            stringstream ss1(nameString);
-            string temp1;
-            bool ok = false;
-            while (ss1 >> temp1) {
-                if (temp1 == ":") {
-                    ok = true;
-                }
-                if (ok == true) {
-                    a.name += temp1 + " ";
-                }
-            }
-            a.name.pop_back();
-            
-            string disString, disTemp;
-            getline(in, disString);
-            string temp2;
-            stringstream ss2(disString);
-            while (ss2 >> temp2) {
-                disTemp = temp2;
-            }
-            a.discount = stoi(disTemp);
-
-            Invoice x;
-            in >> x;
-            a.customer = x;
-            return in;
-        }
-        friend ostream &operator << (ostream &out, Customer a) {
-		
-            out << "Customer ID : " << a.id << endl;
-            out << "Full Name : " << a.name << endl;
-            out << a.customer;    
-            out << "--------------------\n";        
-            return out;
-    	}
-};
-
 void testCase() {
     int n;
     cin >> n;
