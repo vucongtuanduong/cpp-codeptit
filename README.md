@@ -18,3 +18,11 @@ Course name: C++ programming Language\
 Semester: 23-24 T1(Term 1)\
 Lecturer: MSc Tien Nguyen Van
 
+## My thought
+I have put a lot of effort in this course this term because this course is important and also because of the result of previous course from last term which fell short of my expectation.\
+And finally, hard work pays off! I really happy with the final result. Prepare both mental and physical health for next term with much more hard and important course - DSA. \
+To be honest, when I was typing this, I haven't finised all final tern test yet and also haven't found out the method and strategy to efficiently master this course yet, but I know I have to go thorough trial and errors to find the best way to learn\
+Looking forward to the next term!\
+\
+Next stop: DSA !! 
+
